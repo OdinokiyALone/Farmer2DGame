@@ -1,0 +1,59 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="item" src="project://database/Assets/UI%20Toolkit/item.uxml?fileID=9197481963319205126&amp;guid=09a7daf23c99b584e9e8a0173249d2a1&amp;type=3#item" />
+    <Style src="project://database/Assets/UI%20Toolkit/mainStyle.uss?fileID=7433441132597879392&amp;guid=2e3cf21e58656c046b05af80e81ed84c&amp;type=3#mainStyle" />
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.78); flex-direction: row; height: 100%; width: 100%;">
+        <ui:GroupBox name="itemBox" style="height: 100%; width: 50%; flex-direction: row; flex-wrap: wrap; left: 0; top: 0; right: 471px; bottom: -124px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 2%; padding-right: 2%; padding-bottom: 2%; padding-left: 2%; border-top-width: 0; flex-basis: 0; flex-shrink: 2; flex-grow: 2; align-items: center; align-self: center; justify-content: space-between; border-top-color: rgba(0, 0, 0, 0); border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; transform-origin: center;">
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;">
+                <AttributeOverrides element-name="item" parse-escape-sequences="true" focusable="true" />
+            </ui:Instance>
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+            <ui:Instance template="item" name="item" class="item" style="align-items: stretch; width: 100px; height: 100px;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="previewBox" style="width: 50%; height: 100%; flex-wrap: wrap; flex-direction: column; justify-content: space-between; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 2%; padding-right: 2%; padding-bottom: 2%; padding-left: 2%;">
+            <ui:VisualElement name="itemPreview" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; transform-origin: top; height: auto; width: auto; justify-content: center; background-color: rgb(26, 11, 11);" />
+            <ui:GroupBox name="butttonBox" style="flex-direction: row; align-items: center; justify-content: space-around; align-self: stretch; height: 20%;">
+                <ui:Button text="USE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="useButton" style="width: 40%; height: 80%; -unity-font-style: normal; text-overflow: clip;" />
+                <ui:Button text="DROP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="dropButton" style="width: 40%; height: 80%;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

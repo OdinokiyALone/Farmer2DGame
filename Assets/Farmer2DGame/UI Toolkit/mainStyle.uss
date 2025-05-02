@@ -1,0 +1,12 @@
+item {
+}
+
+.button {
+    height: 100%;
+    width: 270px;
+    margin-bottom: 26px;
+}
+
+.button:focus {
+    background-color: rgb(255, 255, 255);
+}

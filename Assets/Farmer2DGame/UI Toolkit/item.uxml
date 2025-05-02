@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="item" style="width: 100%; height: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(53, 40, 1); -unity-background-image-tint-color: rgb(255, 255, 255); background-image: none; -unity-text-align: lower-right; font-size: 27px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+</ui:UXML>
