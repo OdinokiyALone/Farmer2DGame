@@ -24,7 +24,7 @@ public class MainManager
         InputManager = new();
     }
 
-
+    //aboba
     public void GamePause()
     {
 
