@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -170,6 +170,11 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
+    uuid:
+      value0: 3381926408
+      value1: 0
+      value2: 0
+      value3: 0
     guid: -913040888
     name: "\u0430\u043D\u0438\u043C.\u0422\u043E\u0440\u0433\u043E\u0432\u0435\u0446
       - idle 2"
