@@ -42,6 +42,41 @@ public class Corutines : MonoBehaviour
         Object.DontDestroyOnLoad(this.gameObject);
     }
 }
+
+public class LoadScreen : MonoBehaviour
+{
+    [SerializeField] private UnityEngine.UI.Slider _progressBar;
+    private GameObject _loadingsScreen;
+    private void Awake()
+    {
+        _loadingsScreen = Resources.Load<GameObject>("LoadingScreen");
+        //_progressBar = _loadingsScreen.transform.GetComponentInChildren();
+    }
+
+    void Start()
+    {
+        Messenger<int, int>.AddListener(StartupEvent.MANAGERS_PROGRESS, OnManagersProgress);
+        Messenger.AddListener(StartupEvent.MANAGERS_STARTED, OnManagersStarted);
+
+    }
+    private void OnDestroy()
+    {
+        Messenger<int, int>.RemoveListener(StartupEvent.MANAGERS_PROGRESS, OnManagersProgress);
+        Messenger.RemoveListener(StartupEvent.MANAGERS_STARTED, OnManagersStarted); ;
+    }
+
+    private void OnManagersProgress(int numReady, int numModules)
+    {
+        float progress = (float)numReady / numModules;
+        _progressBar.value = progress;
+    }
+
+    private void OnManagersStarted()
+    {
+        Managers.Mission.GotoNext(ConstCollection.MAIN_MENU);
+    }
+}
+
 #if UNITY_EDITOR
 public static class ToggleMenuExample
 {

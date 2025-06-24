@@ -1,3 +1,4 @@
+using OABaseGameSystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
